@@ -5,7 +5,7 @@ The project demonstrates the use of C++17's std::visitor function in the interfa
 ## Description
 
 * An Expression, here, is an inductively defined object using the atomic Expressions of type int, bool, or std::monostate, together with operators inherited from these types. More technically, an Expression is a self-recursive variant with 1-ary and 2-ary operators defined on it.
-* Each Expression is either valid or invalid. An Expression is valid just in case it represents a well-formed formula or mathematical expression (no atomic subExpression is of type std::monostate).
+* Each Expression is either valid or invalid. An Expression is valid just in case it represents a well-formed formula or mathematical expression (no atomic part of the Expression is of type std::monostate).
 * Visitor method typeCheck() checks whether an Expression is well-formed.
 * Visitor method evaluate() evaluates the expression or formula.
 * Each method defined on the Expression follows the visitor pattern, including the operators +,-, and so on.
