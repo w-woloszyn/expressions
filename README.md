@@ -1,6 +1,6 @@
-# Expression evaluator written in C++17 using std::visitor function in the interface std::variant
+# Expression evaluator written in C++17 using std::visitor function in the interface of std::variant
 
-The project demonstrates the use of C++17's std::visitor function in the interface std::variant to implement the visitor pattern in the field of classical design patterns, by the example of an expression evaluator.
+The project demonstrates the use of C++17's std::visitor function in the interface of std::variant to implement the visitor pattern in the field of classical design patterns, by the example of an expression evaluator.
 
 ## Description
 
